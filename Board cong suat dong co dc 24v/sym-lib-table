@@ -1,0 +1,3 @@
+(sym_lib_table
+  (lib (name "Motor DC power-rescue")(type Legacy)(uri "${KIPRJMOD}/Motor DC power-rescue.lib")(options "")(descr ""))
+)

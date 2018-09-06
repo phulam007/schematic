@@ -1,0 +1,376 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="D">
+  <design>
+    <source>D:\PLam\Schematic\Board cong suat dong co dc 24v\Motor DC power.sch</source>
+    <date>13/01/2018 09:34:02</date>
+    <tool>Eeschema (2017-11-24 revision a01d81e4b)-makepkg</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>Motor DC power.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="P1">
+      <value>CONN_02X10</value>
+      <footprint>Connectors_IDC:IDC-Header_2x10_Pitch2.54mm_Straight</footprint>
+      <libsource lib="Motor DC power-rescue" part="CONN_02X10-RESCUE-Motor_DC_power"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5A104C0C</tstamp>
+    </comp>
+    <comp ref="Q1">
+      <value>IRF540N</value>
+      <footprint>Power_Integrations:TO-220</footprint>
+      <libsource lib="Motor DC power-rescue" part="IRF540N-RESCUE-Motor_DC_power"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5A10537C</tstamp>
+    </comp>
+    <comp ref="D2">
+      <value>D_Zener</value>
+      <footprint>Resistors_ThroughHole:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal</footprint>
+      <libsource lib="Motor DC power-rescue" part="D_Zener-RESCUE-Motor_DC_power"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5A105788</tstamp>
+    </comp>
+    <comp ref="U1">
+      <value>LTV-817</value>
+      <footprint>PC817:DIL04</footprint>
+      <libsource lib="Motor DC power-rescue" part="LTV-817-RESCUE-Motor_DC_power"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5A10616B</tstamp>
+    </comp>
+    <comp ref="R4">
+      <value>R</value>
+      <footprint>Resistors_ThroughHole:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal</footprint>
+      <libsource lib="Motor DC power-rescue" part="R-RESCUE-Motor_DC_power"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5A106870</tstamp>
+    </comp>
+    <comp ref="R1">
+      <value>R</value>
+      <footprint>Resistors_ThroughHole:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal</footprint>
+      <libsource lib="Motor DC power-rescue" part="R-RESCUE-Motor_DC_power"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5A1077B0</tstamp>
+    </comp>
+    <comp ref="D3">
+      <value>D_motor</value>
+      <footprint>Power_Integrations:TO-220</footprint>
+      <libsource lib="Motor DC power-rescue" part="D_Schottky_x2_KCom_AKA-RESCUE-Motor_DC_power"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5A109497</tstamp>
+    </comp>
+    <comp ref="R2">
+      <value>R</value>
+      <footprint>Resistors_ThroughHole:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal</footprint>
+      <libsource lib="Motor DC power-rescue" part="R-RESCUE-Motor_DC_power"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5A109E15</tstamp>
+    </comp>
+    <comp ref="R3">
+      <value>R</value>
+      <footprint>Resistors_ThroughHole:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal</footprint>
+      <libsource lib="Motor DC power-rescue" part="R-RESCUE-Motor_DC_power"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5A10AADF</tstamp>
+    </comp>
+    <comp ref="D1">
+      <value>LED</value>
+      <footprint>LEDs:LED_D3.0mm</footprint>
+      <libsource lib="Motor DC power-rescue" part="LED-RESCUE-Motor_DC_power"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5A10AC09</tstamp>
+    </comp>
+    <comp ref="P2">
+      <value>CONN_01X03</value>
+      <footprint>Terminal_Blocks:TerminalBlock_bornier-3_P5.08mm</footprint>
+      <libsource lib="Motor DC power-rescue" part="CONN_01X03-RESCUE-Motor_DC_power"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5A10BAEC</tstamp>
+    </comp>
+    <comp ref="P3">
+      <value>CONN_01X02</value>
+      <footprint>Terminal_Blocks:TerminalBlock_bornier-2_P5.08mm</footprint>
+      <libsource lib="Motor DC power-rescue" part="CONN_01X02-RESCUE-Motor_DC_power"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5A10C743</tstamp>
+    </comp>
+    <comp ref="P4">
+      <value>CONN_01X02</value>
+      <footprint>Terminal_Blocks:TerminalBlock_bornier-2_P5.08mm</footprint>
+      <libsource lib="Motor DC power-rescue" part="CONN_01X02-RESCUE-Motor_DC_power"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5A10D0A3</tstamp>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="Motor DC power-rescue" part="CONN_01X02-RESCUE-Motor_DC_power">
+      <footprints>
+        <fp>Pin_Header_Straight_1X02</fp>
+        <fp>Pin_Header_Angled_1X02</fp>
+        <fp>Socket_Strip_Straight_1X02</fp>
+        <fp>Socket_Strip_Angled_1X02</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">P</field>
+        <field name="Value">CONN_01X02-RESCUE-Motor_DC_power</field>
+      </fields>
+      <pins>
+        <pin num="1" name="P1" type="passive"/>
+        <pin num="2" name="P2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Motor DC power-rescue" part="CONN_01X03-RESCUE-Motor_DC_power">
+      <footprints>
+        <fp>Pin_Header_Straight_1X03</fp>
+        <fp>Pin_Header_Angled_1X03</fp>
+        <fp>Socket_Strip_Straight_1X03</fp>
+        <fp>Socket_Strip_Angled_1X03</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">P</field>
+        <field name="Value">CONN_01X03-RESCUE-Motor_DC_power</field>
+      </fields>
+      <pins>
+        <pin num="1" name="P1" type="passive"/>
+        <pin num="2" name="P2" type="passive"/>
+        <pin num="3" name="P3" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Motor DC power-rescue" part="CONN_02X10-RESCUE-Motor_DC_power">
+      <footprints>
+        <fp>Pin_Header_Straight_2X10</fp>
+        <fp>Pin_Header_Angled_2X10</fp>
+        <fp>Socket_Strip_Straight_2X10</fp>
+        <fp>Socket_Strip_Angled_2X10</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">P</field>
+        <field name="Value">CONN_02X10-RESCUE-Motor_DC_power</field>
+      </fields>
+      <pins>
+        <pin num="1" name="P1" type="passive"/>
+        <pin num="2" name="P2" type="passive"/>
+        <pin num="3" name="P3" type="passive"/>
+        <pin num="4" name="P4" type="passive"/>
+        <pin num="5" name="P5" type="passive"/>
+        <pin num="6" name="P6" type="passive"/>
+        <pin num="7" name="P7" type="passive"/>
+        <pin num="8" name="P8" type="passive"/>
+        <pin num="9" name="P9" type="passive"/>
+        <pin num="10" name="P10" type="passive"/>
+        <pin num="11" name="P11" type="passive"/>
+        <pin num="12" name="P12" type="passive"/>
+        <pin num="13" name="P13" type="passive"/>
+        <pin num="14" name="P14" type="passive"/>
+        <pin num="15" name="P15" type="passive"/>
+        <pin num="16" name="P16" type="passive"/>
+        <pin num="17" name="P17" type="passive"/>
+        <pin num="18" name="P18" type="passive"/>
+        <pin num="19" name="P19" type="passive"/>
+        <pin num="20" name="P20" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Motor DC power-rescue" part="D_Schottky_x2_KCom_AKA-RESCUE-Motor_DC_power">
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">D_Schottky_x2_KCom_AKA-RESCUE-Motor_DC_power</field>
+      </fields>
+      <pins>
+        <pin num="1" name="A" type="passive"/>
+        <pin num="2" name="K" type="passive"/>
+        <pin num="3" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Motor DC power-rescue" part="D_Zener-RESCUE-Motor_DC_power">
+      <footprints>
+        <fp>Diode_*</fp>
+        <fp>D-Pak_TO252AA</fp>
+        <fp>*SingleDiode</fp>
+        <fp>*_Diode_*</fp>
+        <fp>*SingleDiode*</fp>
+        <fp>D_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">D_Zener-RESCUE-Motor_DC_power</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Motor DC power-rescue" part="IRF540N-RESCUE-Motor_DC_power">
+      <footprints>
+        <fp>TO-220*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">Q</field>
+        <field name="Value">IRF540N-RESCUE-Motor_DC_power</field>
+        <field name="Footprint">TO-220</field>
+      </fields>
+      <pins>
+        <pin num="1" name="G" type="input"/>
+        <pin num="2" name="D" type="passive"/>
+        <pin num="3" name="S" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Motor DC power-rescue" part="LED-RESCUE-Motor_DC_power">
+      <footprints>
+        <fp>LED*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">LED-RESCUE-Motor_DC_power</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Motor DC power-rescue" part="LTV-817-RESCUE-Motor_DC_power">
+      <footprints>
+        <fp>DIP-4*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">LTV-817-RESCUE-Motor_DC_power</field>
+        <field name="Footprint">DIP-4</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+        <pin num="3" name="~" type="passive"/>
+        <pin num="4" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Motor DC power-rescue" part="R-RESCUE-Motor_DC_power">
+      <footprints>
+        <fp>R_*</fp>
+        <fp>Resistor_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R-RESCUE-Motor_DC_power</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="Motor DC power-rescue">
+      <uri>D:\PLam\Schematic\Board cong suat dong co dc 24v/Motor DC power-rescue.lib</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="VCC">
+      <node ref="P2" pin="3"/>
+      <node ref="R3" pin="2"/>
+      <node ref="P1" pin="18"/>
+      <node ref="P1" pin="20"/>
+    </net>
+    <net code="2" name="GND">
+      <node ref="U1" pin="2"/>
+      <node ref="P2" pin="2"/>
+      <node ref="P1" pin="19"/>
+      <node ref="P1" pin="17"/>
+      <node ref="D1" pin="1"/>
+    </net>
+    <net code="3" name="Net-(D1-Pad2)">
+      <node ref="D1" pin="2"/>
+      <node ref="R3" pin="1"/>
+    </net>
+    <net code="4" name="Motor1">
+      <node ref="U1" pin="4"/>
+      <node ref="D3" pin="2"/>
+      <node ref="P3" pin="1"/>
+      <node ref="P4" pin="1"/>
+    </net>
+    <net code="5" name="Motor2">
+      <node ref="P3" pin="2"/>
+      <node ref="D3" pin="1"/>
+      <node ref="Q1" pin="2"/>
+      <node ref="D3" pin="3"/>
+    </net>
+    <net code="6" name="gnd1">
+      <node ref="R2" pin="2"/>
+      <node ref="D2" pin="2"/>
+      <node ref="Q1" pin="3"/>
+      <node ref="P4" pin="2"/>
+    </net>
+    <net code="7" name="Net-(P1-Pad3)">
+      <node ref="P1" pin="3"/>
+    </net>
+    <net code="8" name="Net-(P1-Pad4)">
+      <node ref="P1" pin="4"/>
+    </net>
+    <net code="9" name="encoder">
+      <node ref="P2" pin="1"/>
+      <node ref="P1" pin="1"/>
+    </net>
+    <net code="10" name="Net-(P1-Pad9)">
+      <node ref="P1" pin="9"/>
+    </net>
+    <net code="11" name="pwm">
+      <node ref="P1" pin="2"/>
+      <node ref="R1" pin="2"/>
+    </net>
+    <net code="12" name="Net-(P1-Pad8)">
+      <node ref="P1" pin="8"/>
+    </net>
+    <net code="13" name="Net-(P1-Pad5)">
+      <node ref="P1" pin="5"/>
+    </net>
+    <net code="14" name="Net-(P1-Pad6)">
+      <node ref="P1" pin="6"/>
+    </net>
+    <net code="15" name="Net-(P1-Pad7)">
+      <node ref="P1" pin="7"/>
+    </net>
+    <net code="16" name="Net-(P1-Pad10)">
+      <node ref="P1" pin="10"/>
+    </net>
+    <net code="17" name="Net-(P1-Pad11)">
+      <node ref="P1" pin="11"/>
+    </net>
+    <net code="18" name="Net-(P1-Pad12)">
+      <node ref="P1" pin="12"/>
+    </net>
+    <net code="19" name="Net-(P1-Pad13)">
+      <node ref="P1" pin="13"/>
+    </net>
+    <net code="20" name="Net-(P1-Pad14)">
+      <node ref="P1" pin="14"/>
+    </net>
+    <net code="21" name="Net-(P1-Pad15)">
+      <node ref="P1" pin="15"/>
+    </net>
+    <net code="22" name="Net-(P1-Pad16)">
+      <node ref="P1" pin="16"/>
+    </net>
+    <net code="23" name="Net-(R2-Pad1)">
+      <node ref="U1" pin="3"/>
+      <node ref="R2" pin="1"/>
+      <node ref="R4" pin="2"/>
+    </net>
+    <net code="24" name="Net-(D2-Pad1)">
+      <node ref="R4" pin="1"/>
+      <node ref="Q1" pin="1"/>
+      <node ref="D2" pin="1"/>
+    </net>
+    <net code="25" name="Net-(R1-Pad1)">
+      <node ref="U1" pin="1"/>
+      <node ref="R1" pin="1"/>
+    </net>
+  </nets>
+</export>
